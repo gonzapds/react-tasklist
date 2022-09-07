@@ -29,7 +29,7 @@ function ListaDeTareas() {
       return tarea;
     });
     setTareas(tareasActualizadas);
-  }
+  };
 
   return (
     <>
@@ -46,7 +46,7 @@ function ListaDeTareas() {
             eliminarTarea={eliminarTarea}
             completarTarea={completarTarea} />
           )
-        }
+        };
       </div>
     </>
   );
